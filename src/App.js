@@ -1,9 +1,14 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 
+import './App.css';
+
 const App = () =>  {
   return (
     <>
+    <div className = 'name'>
+      Jacob Veal
+    </div>
     <Particles 
       params={{
         "particles": {
@@ -118,7 +123,9 @@ const App = () =>  {
         width: '100%',
         height: '100%',
         backgroundImage: "radial-gradient(circle, rgb(71, 71, 107), rgba(71, 71, 107, 0.9), rgba(71, 71, 107, 0.8))",
-        position: 'fixed'
+        position: 'absolute',
+        backgroundSize: 'cover',
+        backgroundPosition: '50% 50%',
       }}
     />
         </>
