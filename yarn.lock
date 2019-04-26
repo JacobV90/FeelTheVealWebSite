@@ -6773,6 +6773,12 @@ react-is@^16.8.1, react-is@^16.8.4:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
 
+react-particles-js@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/react-particles-js/-/react-particles-js-2.6.0.tgz#159b657a1c2110e9350db5473a8d77b5fc0b52a0"
+  dependencies:
+    lodash "^4.17.11"
+
 react-scripts@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-3.0.0.tgz#a715613ef3eace025907b409cec8505096e0233e"
